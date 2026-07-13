@@ -60,7 +60,7 @@ def fig1_envelope() -> None:
         ax.set_ylim(bottom=-5)
     axes[0].legend(loc="upper right", fontsize=8, ncol=4)
     axes[-1].set_xlabel("エンベロープスペクトル周波数 [Hz]")
-    fig.suptitle("エンベロープスペクトルと幾何の予言 (破線 = 幾何から計算した欠陥周波数の 1 次)", fontsize=11)
+    fig.suptitle("エンベロープスペクトルの比較 (破線 = 幾何から計算した欠陥周波数の 1 次)", fontsize=11)
     fig.tight_layout()
     fig.savefig(FIG_DIR / "fig1_envelope_spectra.png", dpi=150)
     plt.close(fig)

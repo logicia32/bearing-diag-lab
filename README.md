@@ -1,8 +1,8 @@
 # bearing-diag-lab
 
-CWRU Bearing Data Center の公開データを使って、軸受の故障種別をエンベロープ解析で言い当てる実験と、「診断精度 99%」という定番の数字がどこから来るのかを確かめる評価実験の置き場です。
+CWRU Bearing Data Center の公開データを使って、ベアリングの故障種別をエンベロープ解析で特定する実験と、「診断精度 99%」という定番の数字がどこから来るのかを確かめる評価実験の置き場です。
 
-解説記事: [その 99% は、故障ではなく「収録」を当てていた ―― 軸受診断の定番データを、幾何の予言で確かめなおす](https://zenn.dev/logicia32/articles/2026-07-09-bearing-envelope-leak)
+解説記事: [ベアリング診断の「精度 99%」はどこから来るのか ―― 定番データセットで確かめる](https://zenn.dev/logicia32/articles/2026-07-09-bearing-envelope-leak)
 
 ![ハーモニックスコア行列。内輪は全サイズで正解、外輪は 0.014 のみ誤り、転動体はほぼ全滅](figures/fig2_score_matrix.png)
 
